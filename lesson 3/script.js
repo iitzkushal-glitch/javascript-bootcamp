@@ -1,14 +1,14 @@
-let name = "kushal";
-let age =18;
+
+let name = "Kushal";
+let age = 18;
 let isStudent = true;
 
-console.log(name)
-console.log(age)
-console.log(isStudent)
+console.log(name);
+console.log(age);
+console.log(isStudent);
 
 let firstName = "Kushal";
 let favoriteGame = "GTA V";
-let age = 18;
 let isLearning = true;
 
 console.log(firstName);
