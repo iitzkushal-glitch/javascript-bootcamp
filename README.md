@@ -1,3 +1,3 @@
 # learning-github
-yoo what up i am learning git hub.<br>
+yoo what up.<br>
 author - kushal thapa
