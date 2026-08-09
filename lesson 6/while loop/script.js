@@ -43,6 +43,15 @@ while( i6 <= 30 ){
     i6 +=3;
 }
 
+let i7 =1;
+while (i <= 30){
 
+    if(i %3=== 0){
+        console.log(i7);
+    }
+    
+    i7++;
+
+}
 
 
