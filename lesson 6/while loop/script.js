@@ -42,14 +42,14 @@ while( i6 <= 30 ){
     console.log(i6);
     i6 +=3;
 }
-
+console.log("combine loops");
 let i7 =1;
-while (i <= 30){
+while (i7 <= 30){
 
-    if(i %3=== 0){
+    if(i7 %3=== 0){
         console.log(i7);
     }
-    
+
     i7++;
 
 }
