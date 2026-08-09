@@ -36,3 +36,5 @@ console.log("multiplaction of 5")
 for ( let i5=5; i5<=50; i5 += 5){
 console.log(i5)
 }
+
+
