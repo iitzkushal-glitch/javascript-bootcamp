@@ -1,3 +1,4 @@
+// just function
 function sayHello(){
     console.log("hello guys");
 }
@@ -11,7 +12,7 @@ function greet(){
 greet();
 
 
-
+//using function and combining name and hello
 function greeting(name){
     console.log( "hello" + name);
 }
@@ -24,7 +25,7 @@ function getHim(name){
 }
 getHim("kushal");
 getHim("thapa");
-
+//combining different varibales in same function
 function introduce(name, age){
     console.log("my name is "+ name +"and i am " + age + "years old");
 }
@@ -37,7 +38,7 @@ function calculateTotal(price, quantity){
 }
 calculateTotal(978, 55);
 
-
+//adding using function and also finding square
 function sum(a, b){
     console.log(a + b);
 }
@@ -56,4 +57,17 @@ function addNumber(a ,b){
  }
  let squares = square(67);
 console.log(squares);
+// combining function parameter and return and also using if/else 
 
+function ageVerify(age) {
+    if (age >= 18) {
+        return "you can enter";
+    } else {
+        return "you can't enter";
+    }
+}
+
+let age = ageVerify(19);
+
+console.log(age);
+  
