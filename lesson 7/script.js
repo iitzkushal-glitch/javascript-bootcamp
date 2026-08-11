@@ -71,3 +71,17 @@ let age = ageVerify(19);
 
 console.log(age);
   
+function number(number) {
+    if (number > 0) {
+        return "positive";
+    } 
+    else if (number === 0) {
+        return "zero";
+    }
+    else {
+        return "negative";
+    }
+}
+console.log(number(2));
+console.log(number(-1));
+console.log(number(0));
