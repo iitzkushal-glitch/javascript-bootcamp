@@ -1,6 +1,19 @@
-let name ="kushal";
-let age = 18;
-let isStudent = true;
-console.log("Name: " + name);
-console.log("Age: " + age);
-console.log("Is Student: " + isStudent);
+let name1 ="kushal";
+let age1 = 18;
+let isStudent1 = true;
+console.log("Name: " + name1);
+console.log("Age: " + age1);
+console.log("Is Student: " + isStudent1);
+
+//challange 2 
+
+let age = 20; 
+if (age >= 18) {
+    console.log("YOU CAN ENTER");
+} else {
+    console.log("you cant enter");
+}
+
+ //chalange 3
+
+ 
