@@ -24,4 +24,17 @@ if (age >= 18) {
     console.log("even")
  }
 
- 
+//challange 4
+
+for (let i=1; i <= 10; i++){
+    console.log(i)
+}
+
+let i1 = 10;
+while ( i1 >= 1 ){
+console.log(i1);
+i1--;
+}
+
+
+
