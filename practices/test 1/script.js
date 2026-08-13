@@ -14,6 +14,14 @@ if (age >= 18) {
     console.log("you cant enter");
 }
 
- //chalange 3
+ //challange 3
+
+ let number =4;
+ if (number % 2 ===1){
+    console.log("odd")
+ }else
+    {
+    console.log("even")
+ }
 
  
