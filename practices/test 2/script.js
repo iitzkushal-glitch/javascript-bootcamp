@@ -38,5 +38,16 @@ switch(user){
             defafult:
             console.log("trial user");
 
-
 }
+
+var users ="null";
+ if (users){
+  console.log("Condition is true");
+
+ }
+ var use = "2";
+ if (2 === use ){
+  console.log("condition is true")
+ }else{
+  console.log("condition is not true")
+ }
