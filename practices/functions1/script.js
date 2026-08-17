@@ -36,7 +36,32 @@ console.log(namaste());
             break;
     }
 }
-console.log(getUserRole("kushal","admin"));
 //different ways of using this shit named function
+console.log(getUserRole("kushal","admin"));
+
 var getRole = getUserRole("thapa","user");
 console.log(getRole);
+
+
+// this is classic way to use functions
+function giveUserName(name1, role1){
+switch(role1){
+      case "admin":
+       return `${name1} is admin and he can do whatever he wants!`;
+
+       case "co-admin":
+       return`${name1} is co-admin he can do a lot but not ad abmin just a tiny admin`;
+
+       case "worker":
+        return`${name1} is a worker who work under admin and co-admin`;
+
+        case "user":
+    return `${name1} is user of this application who is logined`;
+    
+            case "trial user":
+            return`${name1} is a user who is ha not sign up `;
+}
+}
+
+var name44 = giveUserName("kushal","admin");
+console.log(name44);
