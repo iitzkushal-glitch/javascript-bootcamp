@@ -12,3 +12,18 @@ function checkNumbers() {
 }
 
 checkNumbers();
+
+// using while
+function checkNumbers() {
+    let i = 11;
+
+    while (i <= 20) {
+        if (i % 2 === 0) {
+            console.log(i);
+        }
+
+        i++;
+    }
+}
+
+checkNumbers(); 
