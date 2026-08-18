@@ -65,3 +65,5 @@ switch(role1){
 
 var name44 = giveUserName("kushal","admin");
 console.log(name44);
+
+console.log(giveUserName("kushal","trial user"));
