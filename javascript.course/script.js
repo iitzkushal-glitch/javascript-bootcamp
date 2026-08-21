@@ -7,3 +7,4 @@ function tip(t){
     console.log(bill + 5);
 }
 tip(44) 
+-
