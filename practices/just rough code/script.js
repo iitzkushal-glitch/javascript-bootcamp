@@ -13,3 +13,6 @@ console.log(position1);//we get -1
 let sentence2 =  "JavaScript is awesome, and JavaScript is powerful!";
 let position2 = sentence.indexOf("JavaScript", 10);
 console.log(position2); 
+
+const defaultValue = "Guest";
+const userInput = prompt("Please enter your name:", defaultValue);
